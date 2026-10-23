@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+# Inspect the actual commit sent for every branch, rather than only checked-out HEAD.
+while read -r local_ref local_sha remote_ref remote_sha; do
+  case "$local_sha" in
+    0000000000000000000000000000000000000000) continue ;;
+  esac
+  if [ "$local_sha" != "$(git rev-parse HEAD)" ]; then
+    echo 'Privacy check: push the checked-out branch only; review other refs separately.'
+    exit 1
+  fi
+  python3 scripts/check_privacy.py --history
+done

@@ -1,0 +1,21 @@
+.DS_Store
+~$*.docx
+.artifacts/
+.env
+.env.*
+!.env.example
+
+# Private local material must never be staged.
+private/
+local-only/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.sql
+*.dump
+*.sqlite
+*.db
+__pycache__/

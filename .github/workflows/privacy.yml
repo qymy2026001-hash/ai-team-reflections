@@ -1,0 +1,22 @@
+name: Privacy check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  privacy:
+    name: Privacy check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Test detection without logging sensitive samples
+        run: python3 scripts/check_privacy.py --self-test
+      - name: Check content and reachable history
+        run: python3 scripts/check_privacy.py --history
