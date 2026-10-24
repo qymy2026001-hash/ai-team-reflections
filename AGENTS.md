@@ -1,8 +1,9 @@
 # 项目维护约定
 
-这是研发流程与团队管理知识库，中英文双版同步维护，Markdown 为主版本。
+这是 AI 团队启示录（AI Team Reflections），记录人与 AI 协作中的研发、管理与独立思考。中英文双版同步维护，Markdown 为主版本。
 
 - 按用户要求更新，不自行创建周期性发布任务。
+- 仅发布适合公开且获用户授权的内容，不自动将每次对话写入仓库；保留人的判断、反例和适用边界。
 - 修改已有主题时优先完善现有文章，避免同义文档不断增加。
 - 新文章提供语言切换入口，同步更新两种语言的 README 与选题清单。
 - 保留事实、假设、建议与实际结果的区别；不得编造团队情况或管理数据。
@@ -16,9 +17,10 @@
 
 ## Maintenance rules in English
 
-This is a bilingual engineering management knowledge base. Maintain Chinese and English Markdown editions together.
+This is AI Team Reflections, a record of engineering, management, and independent thinking in human–AI collaboration. Maintain Chinese and English Markdown editions together.
 
 - Update on demand; do not create scheduled publishing without a request.
+- Publish only material suitable for public sharing and authorized by the user. Do not automatically commit conversations; preserve human judgments, counterexamples, and limits.
 - Improve existing articles before adding duplicate topics. Link new articles in both READMEs and backlogs, with language switches.
 - Distinguish facts, assumptions, proposals, and observed outcomes. Never invent team conditions or results.
 - Verify external platform claims when needed and record primary-source links and dates.

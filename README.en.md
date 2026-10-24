@@ -1,10 +1,21 @@
-# We Are a Team
+# AI Team Reflections
 
 [简体中文](README.md) | **English**
 
-Document, discuss, and test ways to manage engineering teams, connecting requirements, code, delivery, and professional growth through traceable collaboration.
+**Engineering, management, and independent thinking in human–AI collaboration**
 
-This is a public engineering management knowledge base. It uses GitHub to maintain process analysis, management ideas, practice reports, and reusable templates. The articles are proposals for teams to evaluate in their own context, not claims of proven results.
+AI Team Reflections records questions, hypotheses, experiments, and evolving judgments about working with AI. It explores engineering workflows and team management, including the decisions and responsibilities people should retain when using AI.
+
+This repository contains selected reflections and methods suitable for public sharing. Existing workflow analysis and templates are starting points for discussion, not proven management answers; the practice log has no trial results yet. Open questions are welcome, but assumptions must not be presented as facts or outcomes.
+
+## How we think through problems
+
+1. State a concrete problem, your current judgment, and the reasons behind it.
+2. Use AI to break down the problem, find counterexamples, and compare alternatives, separating sources from inference.
+3. Make the decision yourself in light of real constraints, retaining responsibility for validation and action.
+4. After a trial, record outcomes, costs, and limits, then decide what merits publication.
+
+Not every discussion needs an article, and publication counts are not a measure of value. Real people's details, internal business context, and unpublished material stay out of this repository. Public examples must comply with the privacy policy.
 
 ## Start here
 
@@ -27,7 +38,7 @@ The repository includes a local check, opt-in Git hooks, and a GitHub Actions ch
 
 ## How updates work
 
-Updates happen on demand, without scheduled publishing. Record a problem in an Issue, develop a proposal in a documentation PR, and record observations if a team chooses to try it. Explain why conclusions change and link to previous discussions.
+Updates happen on demand, without scheduled publishing or automatic publication of conversations. Record problems suitable for public discussion in Issues, develop proposals in documentation PRs, and publish safe observations if a team tries them. Explain why conclusions change and link to previous discussions.
 
 ```text
 Problem or idea → Issue discussion → Documentation PR → Review and merge
@@ -54,3 +65,5 @@ Chinese and English Markdown documents are maintained together, with language li
 The [original Chinese Word document](docs/archive/GitHub项目研发流程与团队管理分析.docx) is a historical snapshot dated 2026-10-23. It is not maintained or translated as part of the bilingual Markdown editions.
 
 The project contains management documentation and privacy checks. Recommendations for protecting branches, testing applications, or deploying services do not mean those controls have been configured in anyone's business repositories.
+
+The project evolved from We Are a Team and was renamed AI Team Reflections on 2026-10-24, retaining its existing documents, bilingual structure, and privacy checks.
